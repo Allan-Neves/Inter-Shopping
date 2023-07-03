@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+/* Reset de estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Cabin', sans-serif;
+  background-color: #1c1c1e;
+}
+
+/* Barra de rolagem personalizada */
+::-webkit-scrollbar {
+  height: 10px;
+  width: 8px;
+  border-radius: 15px;
+  background-color: rgb(236, 236, 236);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #72abca;
+  border-radius: 15px;
+}
+
+/* Configuração do cabeçalho */
+header {
+    background-color: #2d92c9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Configuração do conteúdo princípal */
+main {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+}
+
+main h1 {
+    font-size: 74px;
+    margin-bottom: 65px;
+}
+
+main .span-inter {
+    background-color: #2d92c9;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.8s;
+}
+
+main .span-inter:hover {
+    transform: scale(1.05);
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+  
+  .text-link {
+    text-decoration: underline;
+    animation: blink 5s infinite ease-in;
+  }
+  
+main p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #cecdcd;
+
+}
+
+/* Configuração dos botões */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-decoration: none;
+    background-color: #39393f;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 6px;
+    padding: 16px 23px;
+    margin-left: 17px;
+    margin-bottom: 30px;
+    transition: all 0.8s;
+}
+
+.links:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: #2d92c9;
+    box-shadow: 0 0 40px #2d92c9;
+}
+
+/* Estilos do rodapé */
+footer {
+    margin-top: 103px;
+    padding: 23px 100px;
+    background-color: #2d92c9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+  }
+  
+  footer h3 {
+    font-size: 50px;
+    padding-bottom: 5px;
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .social li a img {
+    width: 40px;
+    margin: 10px;
+    transition: all 0.7s;
+  }
+  
+  .social li a img:hover {
+    transform: scale(1.2);
+  }
+
+@media screen and (max-width: 677px) {
+
+    main {
+        margin-top: 100px;
+    }
+
+    main h1 {
+        font-size: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 22px 0;
+        text-align: center;
+      }
+    
+      footer p {
+        margin-bottom: 10px;
+      }
+}
