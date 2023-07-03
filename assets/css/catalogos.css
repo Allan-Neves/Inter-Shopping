@@ -460,7 +460,6 @@ footer h3 {
   width: 100%;
 }
 
-
 footer a,
 .topo {
   color: #ffffff;
@@ -542,5 +541,9 @@ footer a,
 
   footer p {
     margin-bottom: 10px;
+  }
+
+  .social {
+    margin-top: -20px;
   }
 }
