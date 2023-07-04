@@ -12,6 +12,11 @@ html {
   scroll-behavior: smooth;
   font-family: 'Cabin', sans-serif;
   background-color: #1c1c1e;
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.6rem;
 }
 
 /* Barra de rolagem personalizada */
@@ -47,7 +52,7 @@ main {
 }
 
 main h1 {
-    font-size: 74px;
+    font-size: 7.4rem;
     margin-bottom: 65px;
 }
 
@@ -76,7 +81,7 @@ main .span-inter:hover {
   }
   
 main p {
-    font-size: 17px;
+    font-size: 1.7rem;
     line-height: 26px;
     color: #cecdcd;
 
@@ -123,7 +128,7 @@ footer {
   }
   
   footer h3 {
-    font-size: 50px;
+    font-size: 5rem;
     padding-bottom: 5px;
   }
   
@@ -156,7 +161,7 @@ footer {
     }
 
     main h1 {
-        font-size: 50px;
+        font-size: 5rem;
     }
 
     .container {
