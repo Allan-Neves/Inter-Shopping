@@ -24,7 +24,4 @@ document.addEventListener('DOMContentLoaded', () => {
   if (greetingElement) {
     greetingElement.innerHTML = greeting;
   }
-
-  const textLink = document.querySelector('.text-link');
-  textLink.classList.add('underline');
 });

@@ -118,14 +118,16 @@ main p {
   color: white;
   font-weight: bolder;
   text-decoration: none;
-  text-decoration: none;
   background-color: #39393f;
   border: 1px solid rgb(83, 83, 83);
   border-radius: 6px;
-  padding: 16px 23px;
-  margin-left: 17px;
+  padding: 23px 33px;
   margin-bottom: 30px;
   transition: all 0.8s;
+}
+
+.links:not(:last-child) {
+  margin-right: 20px;
 }
 
 .links:hover {
@@ -188,9 +190,24 @@ footer h3 {
     flex-direction: column;
     padding: 22px 0;
     text-align: center;
+    margin-top: 70px;
   }
 
   footer p {
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .container {
+      flex-direction: column;
+  }
+
+  .links {
+    padding: 25px 55px;
+  }
+
+  .links:not(:last-child) {
+      margin-right:0;
   }
 }
