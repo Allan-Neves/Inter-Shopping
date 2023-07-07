@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const titleElement = document.createElement('h4');
     titleElement.classList.add('titulo-catalogo');
     titleElement.textContent = title;
-    titleElement.id = title.toLowerCase();
-    group.appendChild(titleElement);
+    titleElement.id = title.replace(/ /g, '-').toLowerCase();
+    group.appendChild(titleElement);    
 
     // Cria um elemento div para os containers do grupo
     const containerCatalogo = document.createElement('div');

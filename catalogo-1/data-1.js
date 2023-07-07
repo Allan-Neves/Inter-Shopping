@@ -2744,7 +2744,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'Camisas-de-Jogo',
+        title: 'Camisas de jogo',
         containers: [
             {
                 description: 'América Mineiro | 22-23',
@@ -3731,7 +3731,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'Corta-vento',
+        title: 'Corta vento',
         containers: [
             {
                 description: 'Alemanha | 22-23',
@@ -7076,7 +7076,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'Kit-infantil',
+        title: 'Kit infantil',
         containers: [
             {
                 description: 'Ajax | 22-23',
@@ -8204,7 +8204,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'La-Liga',
+        title: 'La Liga',
         containers: [
             {
                 description: 'Arsenal | 23-24',
@@ -9104,7 +9104,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'Ligue-1',
+        title: 'Ligue 1',
         containers: [
             {
                 description: 'Angers | 21-22',
@@ -9777,7 +9777,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'Manga-longa',
+        title: 'Manga longa',
         containers: [
             {
                 description: 'Argentina | 14-15',
@@ -10234,7 +10234,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'Major-League-Soccer',
+        title: 'Major League Soccer',
         containers: [
             {
                 description: 'Atlanta United | 22-23',
@@ -12785,7 +12785,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'Premier-League',
+        title: 'Premier League',
         containers: [
             {
                 description: 'Arsenal | 22-23',
@@ -16537,7 +16537,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'República-Tcheca',
+        title: 'República Tcheca',
         containers: [
             {
                 description: 'SK Slavia Praha',
@@ -16733,7 +16733,7 @@ let groupsData1 = [
     // ======================================================= \\ 
 
     {
-        title: 'Versão-player',
+        title: 'Versão player',
         containers: [
             {
                 description: 'Alemanha Edição Especial | 22-23',
