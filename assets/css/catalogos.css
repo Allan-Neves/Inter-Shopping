@@ -392,7 +392,6 @@ main {
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
-  margin-right: 11px;
   width: 350px;
   height: 350px;
   border-radius: 15px;
