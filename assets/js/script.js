@@ -68,18 +68,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (hamburger) {
     var nav = document.querySelector('nav');
-
+    var dropdownLinks = document.querySelectorAll('.dropdown-content a');
+  
     hamburger.addEventListener('click', () => {
+      toggleMenu();
+    });
+  
+    dropdownLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        toggleMenu();
+      });
+    });
+  
+    function toggleMenu() {
       hamburger.classList.toggle('open');
       nav.classList.toggle('open');
-
       const opcoesCatalogo = document.querySelector('.opcoes-catalogo');
       opcoesCatalogo.style.display = nav.classList.contains('open') ? 'none' : 'block';
-
+  
       ['whatsapp', 'instagram', 'twitter', 'facebook'].forEach(name => {
         const img = document.querySelector(`img[src="imagens/${name}-50.png"]`);
         const imgToggle = document.querySelector(`img[src="imagens/${name}-100.png"]`);
-
+  
         if (nav.classList.contains('open')) {
           if (img) {
             img.src = `imagens/${name}-100.png`;
@@ -96,6 +106,8 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         }
       });
-    });
+    }
   }
+  
+
 });
