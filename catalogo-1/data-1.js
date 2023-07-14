@@ -6092,7 +6092,7 @@ let groupsData1 = [
                 ]
             },
             {
-                description: 'Paysandu Sport Club | 23-24',
+                description: 'Paysandu | 23-24',
                 images: [
                     'https://imgur.com/2zXHMKW.jpg',
                     'https://imgur.com/WhJ7RrY.jpg',

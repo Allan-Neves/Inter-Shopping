@@ -380,7 +380,7 @@ main {
   font-size: 2.5rem;
   font-weight: normal;
   text-align: center;
-  max-width: 10%;
+  max-width: 14%;
   margin: 23px auto 12px auto;
   padding-top: 5px;
   border-top: 4px solid #72abca;
@@ -394,6 +394,7 @@ main {
   -webkit-overflow-scrolling: touch;
   width: 350px;
   height: 350px;
+  margin: 0 10px;
   border-radius: 15px;
   background: linear-gradient(350deg, rgba(255, 255, 255, 0.623) 0%, rgb(240, 240, 240) 100%);
   box-shadow:
