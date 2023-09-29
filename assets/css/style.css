@@ -40,7 +40,7 @@ header {
   text-align: center;
 }
 
-/* Configuração do conteúdo princípal */
+/* Configuração do conteúdo principal */
 main {
   max-width: 1000px;
   margin: auto;
@@ -182,7 +182,9 @@ footer h3 {
     margin-top: 100px;
   }
 
-  main h1, .span-inter, .text-link {
+  main h1,
+  .span-inter,
+  .text-link {
     font-size: 4.8rem;
   }
 
@@ -200,7 +202,7 @@ footer h3 {
 
 @media screen and (max-width:480px) {
   .container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .links {
@@ -208,6 +210,6 @@ footer h3 {
   }
 
   .links:not(:last-child) {
-      margin-right:0;
+    margin-right: 0;
   }
 }

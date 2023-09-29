@@ -113,7 +113,7 @@ header {
   justify-content: space-around;
 }
 
-/* Estilos do menu hamburguer */
+/* Estilos do menu hambúrguer */
 .hamburger {
   display: none;
   flex-direction: column;
